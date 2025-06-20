@@ -16,7 +16,7 @@ public class LogService
 
     public void WriteLog(Log log)
     {
-        using (StreamWriter writer = new StreamWriter(_logFilePath, true))
+        using (StreamWriter writer = File.AppendText(_logFilePath))
         {
             writer.WriteLine($"{DateTime.Now:yyyy-MM-dd HH:mm:ss},{log.ComputerName},{log.User}");
         }
