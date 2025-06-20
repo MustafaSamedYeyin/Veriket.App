@@ -9,9 +9,9 @@ namespace Veriket.App.Core.Service;
 public class LogService
 {
     private readonly string _logFilePath;
-    public LogService()
+    public LogService(string logFolderName, string logFileName)
     {
-        _logFilePath = GetLogFileLocation();
+        _logFilePath = GetLogFileLocation(logFolderName,logFileName);
     }
 
     public void WriteLog(Log log)
@@ -68,11 +68,9 @@ public class LogService
     }
 
     #region Private
-    private string GetLogFileLocation()
+    private string GetLogFileLocation(string logFolderName,string logFileName)
     {
         var programDataPath = Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData);
-        var logFolderName = "VeriketApp";
-        var logFileName = "VeriketAppTest.txt";
 
         var filePath =  Path.Combine(programDataPath, logFolderName, logFileName);
 
