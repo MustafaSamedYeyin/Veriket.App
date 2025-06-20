@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36212.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veriket.App.Core", "Veriket.App.Core\Veriket.App.Core.csproj", "{4DE3A5B6-10FD-49FC-8548-59FE706996D6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veriket.App.Viewer", "Veriket.App.Viewer\Veriket.App.Viewer.csproj", "{AD21A73C-A6A1-4044-A1C9-231FED25479E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veriket.App.Service", "Veriket.App.Service\Veriket.App.Service.csproj", "{6A5BEE7C-FA90-4110-AC16-D4DD1B908767}"
@@ -13,16 +11,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Installer", "Installer", "{
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Veriket.App.Setup", "Veriket.App.Setup\Veriket.App.Setup.vdproj", "{A0FFFC02-E286-9382-11C8-5ACEFDA28B2E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{22CCA8DF-960F-4B72-8138-B9CF3A06BFCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veriket.App.Shared", "Veriket.App.Shared\Veriket.App.Shared.csproj", "{F9CEC9D7-B39A-0221-C63E-5E1918858251}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4DE3A5B6-10FD-49FC-8548-59FE706996D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4DE3A5B6-10FD-49FC-8548-59FE706996D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4DE3A5B6-10FD-49FC-8548-59FE706996D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4DE3A5B6-10FD-49FC-8548-59FE706996D6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AD21A73C-A6A1-4044-A1C9-231FED25479E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AD21A73C-A6A1-4044-A1C9-231FED25479E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD21A73C-A6A1-4044-A1C9-231FED25479E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,12 +31,17 @@ Global
 		{6A5BEE7C-FA90-4110-AC16-D4DD1B908767}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A0FFFC02-E286-9382-11C8-5ACEFDA28B2E}.Debug|Any CPU.ActiveCfg = Debug
 		{A0FFFC02-E286-9382-11C8-5ACEFDA28B2E}.Release|Any CPU.ActiveCfg = Release
+		{F9CEC9D7-B39A-0221-C63E-5E1918858251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9CEC9D7-B39A-0221-C63E-5E1918858251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9CEC9D7-B39A-0221-C63E-5E1918858251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9CEC9D7-B39A-0221-C63E-5E1918858251}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A0FFFC02-E286-9382-11C8-5ACEFDA28B2E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{F9CEC9D7-B39A-0221-C63E-5E1918858251} = {22CCA8DF-960F-4B72-8138-B9CF3A06BFCA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DA7ABD1E-634C-4D2D-B445-C304ECD25609}
