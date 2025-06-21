@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Veriket.App.Core.Entities;
+using Veriket.App.Shared.Entities;
 
-namespace Veriket.App.Core.Service;
+namespace Veriket.App.Shared.Service;
 public class LogService
 {
     private readonly string _logFilePath;

@@ -1,5 +1,7 @@
-﻿
-namespace Veriket.App.Core.Entities;
+﻿using System;
+
+namespace Veriket.App.Shared.Entities;
+
 public class Log
 {
     public DateTime Date { get; set; }
