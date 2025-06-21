@@ -1,6 +1,6 @@
 
-using Veriket.App.Core.Entities;
-using Veriket.App.Core.Service;
+using Veriket.App.Shared.Entities;
+using Veriket.App.Shared.Service;
 
 namespace Veriket.App.Service;
 
