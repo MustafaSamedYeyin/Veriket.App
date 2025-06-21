@@ -19,7 +19,7 @@ public class LogService
     {
         using (StreamWriter writer = File.AppendText(_logFilePath))
         {
-            writer.WriteLine($"{DateTime.Now:yyyy-MM-dd HH:mm:ss},{log.ComputerName},{log.User}");
+            writer.WriteLine($"{DateTime.Now.ToString(GetLogDateTimeFormat())},{log.ComputerName},{log.User}");
         }
     }
 
@@ -78,6 +78,11 @@ public class LogService
         EnsureDirectoryExist(filePath);
 
         return filePath;
+    }
+
+    public string GetLogDateTimeFormat()
+    {
+        return "yyyy-MM-dd HH:mm:ss";
     }
     #endregion
 }

@@ -23,10 +23,11 @@ public partial class Form1 : Form
     private void button1_Click(object sender, EventArgs e)
     {
         var logs = _logService.ReadLogs();
+        var logDateFormat = _logService.GetLogDateTimeFormat();
 
         dataGridView1.DataSource = logs.Select(log => new
         {
-            Tarih = log.Date.ToString("yyyy-MM-dd HH:mm:ss"),
+            Tarih = log.Date.ToString(logDateFormat),
             BilgisayarAdı = log.ComputerName,
             KullanıcıAdi = log.User
         }).ToList();

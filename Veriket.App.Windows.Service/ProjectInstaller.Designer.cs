@@ -38,7 +38,6 @@
             // 
             // serviceInstaller3
             // 
-            this.serviceInstaller3.DelayedAutoStart = true;
             this.serviceInstaller3.Description = "VeriketApp Service Test";
             this.serviceInstaller3.DisplayName = "VeriketApp Service";
             this.serviceInstaller3.ServiceName = "VeriketApp Service";

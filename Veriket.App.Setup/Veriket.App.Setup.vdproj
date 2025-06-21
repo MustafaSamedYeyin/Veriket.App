@@ -51,6 +51,18 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_BC99BE09B3394834AE8E9D93718AE3C9"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_DDA91D6C11A94F62B73465A756BD14E6"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_F0762F99DC1E3DA70BFD582748E803BE"
         "OwnerKey" = "8:_98CB1B71A3DE4F3E8CD6C1990FEFE149"
         "MsmSig" = "8:_UNDEFINED"
@@ -65,12 +77,6 @@
         {
         "MsmKey" = "8:_F7AAC8EABCD00D6FC960B79C56F000FC"
         "OwnerKey" = "8:_F0762F99DC1E3DA70BFD582748E803BE"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_F8017A79374542C3B4073D72D285FC54"
-        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -152,6 +158,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
         "Release"
@@ -176,6 +190,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -396,6 +418,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DDA91D6C11A94F62B73465A756BD14E6"
+            {
+            "SourcePath" = "8:C:\\Users\\musta\\Desktop\\StartService.vbs"
+            "TargetName" = "8:StartService.vbs"
+            "Tag" = "8:"
+            "Folder" = "8:_3A77CC99B2FC460A86AD74F7CB2CD7CE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F0762F99DC1E3DA70BFD582748E803BE"
             {
             "AssemblyRegister" = "3:1"
@@ -588,7 +630,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Veriket.App.Setup"
         "ProductCode" = "8:{BAE14DFA-1A8B-41E3-99A3-CA4738591394}"
-        "PackageCode" = "8:{7045DAB0-1C7A-45E1-BF80-A12563282880}"
+        "PackageCode" = "8:{A4C89BD4-CE79-4DA5-93D5-531E852A4C18}"
         "UpgradeCode" = "8:{74DAAD31-2728-4233-A84C-17B26E2D81A1}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -708,7 +750,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_EBE235D3B8B64202BDA6A2FEC471831D"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_07E23CB7165D4BC78CC14E334E549AE7"
             {
             "Name" = "8:Viewer"
             "Arguments" = "8:"
@@ -716,7 +758,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_F8017A79374542C3B4073D72D285FC54"
+            "Target" = "8:_BC99BE09B3394834AE8E9D93718AE3C9"
             "Folder" = "8:_E4783932C0F04C0C8B800572B686730D"
             "WorkingFolder" = "8:_468140030AB74909B6624EAAE34FEC01"
             "Icon" = "8:_F88AC88CAE74429F8D8D5E3C59A39CA0"
@@ -1149,9 +1191,9 @@
                 {
                 }
             }
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_F8017A79374542C3B4073D72D285FC54"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_BC99BE09B3394834AE8E9D93718AE3C9"
             {
-            "SourcePath" = "8:..\\Veriket.App.Viewer\\obj\\Debug\\net8.0-windows\\Veriket.App.Viewer.dll"
+            "SourcePath" = "8:..\\Veriket.App.Viewer\\obj\\Debug\\net8.0-windows\\apphost.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_468140030AB74909B6624EAAE34FEC01"
@@ -1170,7 +1212,7 @@
             "IsolateTo" = "8:"
             "ProjectOutputGroupRegister" = "3:1"
             "OutputConfiguration" = "8:"
-            "OutputGroupCanonicalName" = "8:Built"
+            "OutputGroupCanonicalName" = "8:PublishItems"
             "OutputProjectGuid" = "8:{AD21A73C-A6A1-4044-A1C9-231FED25479E}"
             "ShowKeyOutput" = "11:TRUE"
                 "ExcludeFilters"
